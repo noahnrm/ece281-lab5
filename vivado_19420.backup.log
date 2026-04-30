@@ -1,0 +1,1526 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Apr 29 15:30:08 2026
+# Process ID         : 19420
+# Current directory  : C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent36740 C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\basic_cpu.xpr
+# Log file           : C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/vivado.log
+# Journal file       : C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5\vivado.jou
+# Running On         : C28-2TK416017C
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 7 PRO 7840U w/ Radeon 780M Graphics  
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33585 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 38685 MB
+# Available Virtual  : 12046 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.xpr
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/C28Noah.Marino/Documents/AppData/Roaming/Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1089.707 ; gain = 41.824
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/C28Noah.Marino/Downloads/full_adder.vhd C:/Users/C28Noah.Marino/Downloads/ripple_adder.vhd}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+move_files -fileset sim_1 [get_files  C:/Users/C28Noah.Marino/Downloads/ripple_adder.vhd]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+move_files [get_files  C:/Users/C28Noah.Marino/Downloads/ripple_adder.vhd]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\full_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\full_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\full_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\full_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\full_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\full_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\full_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\full_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Downloads\ripple_adder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+ERROR: [Common 17-180] Spawn failed: No error
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-4940] 'alu' remains a black box since it has no binding entity [C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd:48]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1139.477 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD 0+0: wrong NZCV
+Time: 10 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD 5+3: wrong result
+Time: 20 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD carry: wrong result
+Time: 30 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD carry: wrong NZCV
+Time: 30 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 10-3: wrong result
+Time: 40 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 10-3: wrong NZCV
+Time: 40 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong result
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong result
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: AND: wrong result
+Time: 70 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 1191.312 ; gain = 51.836
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'get_xpm_libraries' failed due to earlier errors.
+
+    while executing
+"rdi::get_xpm_libraries"
+    (procedure "xcs_get_xpm_libraries" line 14)
+    invoked from within
+"xcs_get_xpm_libraries"
+    (procedure "usf_xsim_setup_simulation" line 50)
+    invoked from within
+"usf_xsim_setup_simulation"
+    (procedure "tclapp::xilinx::xsim::setup" line 29)
+    invoked from within
+"tclapp::xilinx::xsim::setup { -simset sim_1 -mode behavioral -run_dir C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim..."
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Downloads/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Downloads/ripple_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ripple_adder'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-9565] expression has 1 elements; formal 'a' expects 8 [C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd:72]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1191.312 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'get_xpm_libraries' failed due to earlier errors.
+
+    while executing
+"rdi::get_xpm_libraries"
+    (procedure "xcs_get_xpm_libraries" line 14)
+    invoked from within
+"xcs_get_xpm_libraries"
+    (procedure "usf_xsim_setup_simulation" line 50)
+    invoked from within
+"usf_xsim_setup_simulation"
+    (procedure "tclapp::xilinx::xsim::setup" line 29)
+    invoked from within
+"tclapp::xilinx::xsim::setup { -simset sim_1 -mode behavioral -run_dir C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim..."
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-8554] selected assignment statement does not cover all choices; 'others' clause is needed [C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd:90]
+ERROR: [VRFC 10-9391] statement might not cover all possible choices; 'others' clause is recommended [C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd:90]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1191.312 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'get_xpm_libraries' failed due to earlier errors.
+
+    while executing
+"rdi::get_xpm_libraries"
+    (procedure "xcs_get_xpm_libraries" line 14)
+    invoked from within
+"xcs_get_xpm_libraries"
+    (procedure "usf_xsim_setup_simulation" line 50)
+    invoked from within
+"usf_xsim_setup_simulation"
+    (procedure "tclapp::xilinx::xsim::setup" line 29)
+    invoked from within
+"tclapp::xilinx::xsim::setup { -simset sim_1 -mode behavioral -run_dir C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim..."
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD 0+0: wrong NZCV
+Time: 10 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD 5+3: wrong NZCV
+Time: 20 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD carry: wrong NZCV
+Time: 30 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 10-3: wrong NZCV
+Time: 40 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: AND: wrong NZCV
+Time: 70 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1191.312 ; gain = 0.000
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD 0+0: wrong NZCV
+Time: 10 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD 5+3: wrong NZCV
+Time: 20 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD carry: wrong NZCV
+Time: 30 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 10-3: wrong NZCV
+Time: 40 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: AND: wrong NZCV
+Time: 70 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1191.312 ; gain = 0.000
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD 0+0: wrong NZCV
+Time: 10 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD 5+3: wrong NZCV
+Time: 20 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: AND: wrong NZCV
+Time: 70 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1191.312 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Failure: arguments of overloaded 'nor' operator are not of the same length
+Time: 0 ps  Iteration: 0  Process: /ALU_tb/uut/line__99  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd
+$finish called at time : 0 fs : File "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" Line 99
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2234.066 ; gain = 0.000
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD 0+0: wrong NZCV
+Time: 10 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD 5+3: wrong NZCV
+Time: 20 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: AND: wrong NZCV
+Time: 70 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2236.836 ; gain = 2.770
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD 5+3: wrong NZCV
+Time: 20 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD carry: wrong NZCV
+Time: 30 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 10-3: wrong NZCV
+Time: 40 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2236.836 ; gain = 0.000
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-923] index value <31> is out of range [7:0] of array <i_a> [C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd:105]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2242.820 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-923] index value <31> is out of range [7:0] of array <i_a> [C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd:105]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2242.820 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'get_xpm_libraries' failed due to earlier errors.
+
+    while executing
+"rdi::get_xpm_libraries"
+    (procedure "xcs_get_xpm_libraries" line 14)
+    invoked from within
+"xcs_get_xpm_libraries"
+    (procedure "usf_xsim_setup_simulation" line 50)
+    invoked from within
+"usf_xsim_setup_simulation"
+    (procedure "tclapp::xilinx::xsim::setup" line 29)
+    invoked from within
+"tclapp::xilinx::xsim::setup { -simset sim_1 -mode behavioral -run_dir C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim..."
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD 0+0: wrong NZCV
+Time: 10 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD 5+3: wrong NZCV
+Time: 20 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD carry: wrong NZCV
+Time: 30 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 10-3: wrong NZCV
+Time: 40 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2253.836 ; gain = 11.016
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD 0+0: wrong NZCV
+Time: 10 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD 5+3: wrong NZCV
+Time: 20 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD carry: wrong NZCV
+Time: 30 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 10-3: wrong NZCV
+Time: 40 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 2253.836 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD 5+3: wrong NZCV
+Time: 20 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: ADD carry: wrong NZCV
+Time: 30 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2253.836 ; gain = 0.000
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: ADD carry: wrong NZCV
+Time: 30 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 3-10: wrong NZCV
+Time: 50 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 2263.715 ; gain = 0.000
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+Error: SUB 100-30: wrong NZCV
+Time: 60 ns  Iteration: 0  Process: /ALU_tb/stim_proc  File: C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 2263.715 ; gain = 0.000
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_adder [ripple_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture testbench of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 75ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 75ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 2279.141 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\top_basys3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\controller_fsm.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\twoscomp_decimal.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\src\ALU.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 29 21:08:33 2026...

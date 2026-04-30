@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Apr 30 07:23:45 2026
+# Process ID         : 20052
+# Current directory  : C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent40432 C:\Users\C28Noah.Marino\Documents\ECE\ece281-lab5\basic_cpu.xpr
+# Log file           : C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/vivado.log
+# Journal file       : C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5\vivado.jou
+# Running On         : C28-2TK416017C
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 7 PRO 7840U w/ Radeon 780M Graphics  
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33585 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 38685 MB
+# Available Virtual  : 16265 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab4/src/sevenseg_decoder.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab5/basic_cpu.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+import_files -norecurse {C:/Users/C28Noah.Marino/Documents/ECE/ece281-ice3/src/ripple_adder.vhd C:/Users/C28Noah.Marino/Documents/ECE/ece281-lab4/src/sevenseg_decoder.vhd}
+update_compile_order -fileset sources_1
